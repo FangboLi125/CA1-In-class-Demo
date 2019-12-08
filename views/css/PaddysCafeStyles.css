@@ -15,12 +15,15 @@ body {
   height: 60px;
   line-height: 60px; 
   text-align: center;/* Vertically center the text there */
-  background-color: #f5f5f5;
+  background-color: #353A3D;
 }
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
      text-align: center;
+     -webkit-text-fill-color: white;
+     text-decoration-line: black;
+     text-decoration-color: red;
 }
  table {
      border-collapse: collapse;
@@ -35,6 +38,6 @@ table, th, td {
      font-weight: bold;
 }
 .selected {
-            background-color: #dc3545;
+            background-color: #e79416;
             color: #FFF;
 }
